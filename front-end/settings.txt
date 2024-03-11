@@ -1,0 +1,4 @@
+root: C:\Users\olama\Documents\GitHub\Team_Finder-Cheatplusplus_FE\front-end 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none
