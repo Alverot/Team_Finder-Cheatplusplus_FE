@@ -1,0 +1,105 @@
+.bara-sus {
+  background-color: gray;
+  padding: 1em 2em;
+  display: flex; /* Permite alinierea elementelor */
+  justify-content: space-between; /* Aliniază elementele la început și la sfârșitul containerului */
+  align-items: flex-end; /* Aliniază vertical conținutul */
+  max-width: 100%;
+  height: 15vh;
+  margin-bottom: 20px; /* Adăugați spațiu între div1 și div2 */
+}
+.sub-bara{
+  margin-top: 20px; /* Plasează div2 mai jos față de div1 */
+}
+
+.login-container {
+  text-align: center;
+
+}
+
+.login-title {
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: inline-block;
+
+}
+
+.login-fields {
+  margin-bottom: 10px;
+
+}
+
+.login-button {
+  color: #fff;
+  width:300px;
+  height: 30px;
+  border: 1px solid #ccc; /* Adăugați o margine de 1 pixel solidă */
+  border-radius: 10px; /* Rotunjiți colțurile inputului */
+  background-color: dimgray;
+}
+
+.login-toggle {
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  padding: 5px 10px;
+  cursor: auto;
+}
+.sub{
+  display: block;
+  width:300px;
+  height: 30px;
+  border: 1px solid #ccc; /* Adăugați o margine de 1 pixel solidă */
+  border-radius: 10px; /* Rotunjiți colțurile inputului */
+  background-color: gray;
+  cursor: auto;
+}
+.stanga,.dreapta{
+  flex: 1; /* Distribuiți spațiul egal între coloane */
+  display: flex; /* Utilizați flexbox pentru a alinia textul pe orizontală și verticală */
+  height: 70vh;
+}
+.stanga{
+  justify-content: center; /* Afișați textul pe mijloc pe axa orizontală */
+  align-items: center;
+
+}
+.div-mare{
+  display: flex;
+
+}
+.dreapta{
+  background-color: gray;
+  margin-right: 100px;
+  justify-content: center;
+  font-size: 1em;
+}
+.left {
+  margin-top: 180px;
+  /* Stiluri pentru elementul din stânga */
+  font-size: 1em;
+}
+
+.right {
+  margin-top: 180px;
+  margin-left:100px;
+  font-size: 1em;
+  /* Stiluri pentru elementul din dreapta */
+}
+.buton-dreapta{
+  height:150px;
+  width: 300px;
+  border: 1px solid; /* Adăugați o margine de 1 pixel solidă */
+  border-radius: 10px; /* Rotunjiți colțurile inputului */
+  border-color: black;
+}
+.butoane-sus{
+  color: black;
+  width:100px;
+  height: 30px;
+  border: 1px solid black; /* Adăugați o margine de 1 pixel solidă */
+  border-radius: 10px; /* Rotunjiți colțurile inputului */
+  background-color: dimgray;
+}
